@@ -1,0 +1,26 @@
+body {
+	background-color: #f0f0f0;
+}
+
+#game-container {
+	width: 400px;
+	height: 400px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.tile {
+	background-color: #eee;
+	padding: 20px;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.tile.merge {
+	background-color: #ccc;
+}
